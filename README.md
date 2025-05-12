@@ -1,13 +1,4 @@
-# Sample Hardhat Project
+# Решение 5 задачи блокчейн хакатона 2025 от Сбера 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+Ссылка на интерактивное демо
+https://oracle-ui.onrender.com/

@@ -1,0 +1,56 @@
+https://eth-sepolia.g.alchemy.com/v2/tzP8MzcTYkHb4SuKXPKk9Z9xa8Dwo5xg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARNING: You are currently using Node.js v23.0.0, which is not supported by Hardhat. This can lead to unexpected behavior. See https://hardhat.org/nodejs-versionsor loading ES Module in require() is an experimental feature and might change
+at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Starting deployment...
+Using Oracle Signer Address: 0x88F9Dc94C74C71e81695f8B7A8159ae32Fc93fb1
+Deploying contracts with the account: 0x88F9Dc94C74C71e81695f8B7A8159ae32Fc93fb1
+Account balance: 0.049998844051970439 ETH
+
+Deploying KYCWhitelist...
+KYCWhitelist deployed to: 0x7B18CCb0eC977e28494eAC47f4Aa3dF8B086982a
+
+Deploying SimpleOracle...
+SimpleOracle deployed to: 0x5b5b4f4e094B34521939a1Fd99dF6ed5f1f1fb52
+
+Deploying PriceConsumerExample...
+PriceConsumerExample deployed to: 0x94Daf999916f7C7F890e675c6c34bcfcB18194d3
+
+Deployment finished successfully!
+----------------------------------------------------
+Deployed Contract Addresses:
+  KYCWhitelist: 0x7B18CCb0eC977e28494eAC47f4Aa3dF8B086982a
+  SimpleOracle: 0x5b5b4f4e094B34521939a1Fd99dF6ed5f1f1fb52
+  PriceConsumerExample: 0x94Daf999916f7C7F890e675c6c34bcfcB18194d3
+----------------------------------------------------
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file c:\ws\deps\uv\src\win\async.c, line 76
+
+
+
+
+
+
+
+
+
+
+
+
+
+

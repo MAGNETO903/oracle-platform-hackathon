@@ -4,11 +4,15 @@ import requests # Для HTTP запросов к нашему FastAPI бэке�
 import time
 import pandas as pd # Для красивого отображения таблиц
 import os
+
+
+st.set_page_config(page_title="Oracle Dashboard", layout="wide")
+
 # URL нашего FastAPI бэкенда
 BACKEND_URL = os.getenv("BACKEND_SERVICE_URL", "http://127.0.0.1:8000")
 st.sidebar.markdown(f"Backend: {BACKEND_URL}") # Для отладки
 
-st.set_page_config(page_title="Oracle Dashboard", layout="wide")
+# st.set_page_config(page_title="Oracle Dashboard", layout="wide")
 
 st.title("📊 Панель управления Оракулом Цен")
 

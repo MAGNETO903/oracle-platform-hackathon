@@ -109,6 +109,6 @@ else:
 # st.experimental_rerun()
 
 # Можно добавить в конце, чтобы видеть "живые" данные, если бэкенд работает
-st.sidebar.button("Обновить данные", on_click=st.experimental_rerun)
+st.sidebar.button("Обновить данные", on_click=st.rerun)
 
 st.caption("Простой UI для демонстрации работы Оракула")
